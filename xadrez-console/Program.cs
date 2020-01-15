@@ -17,6 +17,10 @@ namespace xadrez_console
                 tab.colocarPeca(new Torre(tab, Cor.Preta), new Posicao(1, 3));
                 tab.colocarPeca(new Rei(tab, Cor.Preta), new Posicao(2, 4));
 
+                tab.colocarPeca(new Torre(tab, Cor.Branca), new Posicao(0, 1));
+                tab.colocarPeca(new Torre(tab, Cor.Branca), new Posicao(1, 4));
+                tab.colocarPeca(new Rei(tab, Cor.Branca), new Posicao(4, 4));
+
                 Tela.imprimirTabuleiro(tab);
 
                 PosicaoXadrez pos = new PosicaoXadrez('c', 7);
